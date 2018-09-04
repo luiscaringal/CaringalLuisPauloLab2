@@ -34,8 +34,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="center"
+        android:layout_marginBottom="185dp"
         android:text="Manila Peninsula"
         android:textColor="@android:color/black"
         android:textSize="20sp"
@@ -44,12 +46,12 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="265dp"
-        android:layout_marginStart="17dp"
+        android:layout_marginBottom="121dp"
+        android:layout_marginStart="20dp"
         android:text="Location: Corner of Ayala and Makati Avenues, 1226, Makati, Metro Manila" />
 
     <TextView
@@ -58,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/button"
-        android:layout_marginBottom="216dp"
+        android:layout_marginBottom="85dp"
         android:text="Distance from UST: 12 km." />
 
 </RelativeLayout>
